@@ -1,0 +1,50 @@
+:root {
+  --main-black: #0d1117;
+  --sec-black: #161b22;
+  --finance-color: #30a277;
+  --health-color: #fb882e;
+  --productivity-color: #fc3637;
+  --education-color: #2e4acd;
+  --mid-gray: #474a4e;
+  --gray-color: #dadada;
+  --text-color: #a5a6a7;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: var(--main-black);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Sans Syloti Nagri", sans-serif;
+}
+
+
+.search {
+  position: relative;
+  left: 30px;
+}
+.foot {
+  background-color: var(--sec-black);
+  color: white;
+}
+.navbar {
+  background-color: var(--sec-black) !important;
+}
+.add {
+  /* position: relative; */
+  /* top: 20px; */
+}
+.all {
+  font-size: 25px;
+}
+.modal-content  {
+  background-color: var(--sec-black);
+}
